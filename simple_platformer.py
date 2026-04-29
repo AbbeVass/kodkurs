@@ -75,7 +75,7 @@ while True:
 
     # Rita spelaren
     #pygame.draw.rect(screen, BLUE, player)
-    screen.blit(spelar_bild, (player.x,player.y))
+    screen.blit(spelar_bild, (player.x, player.y))
 
     pygame.display.flip()
     clock.tick(60)
